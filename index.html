@@ -58,6 +58,8 @@
     padding:70px 20px 60px;
     display:grid;grid-template-columns:1.1fr .9fr;
     gap:50px;align-items:center;
+    background:linear-gradient(135deg,#e2231a,#8a140e 70%,#4a0a06);
+    border-radius:0 0 26px 26px;
   }
   .hero h1{
     font-size:clamp(2rem,4.5vw,3.2rem);
@@ -66,10 +68,10 @@
   }
   .hero h1 em{
     font-style:normal;
-    background:linear-gradient(90deg,var(--red),var(--blue));
+    background:linear-gradient(90deg,#ffd86b,#fff);
     -webkit-background-clip:text;background-clip:text;color:transparent;
   }
-  .hero p{color:var(--muted);font-size:1.05rem;margin-bottom:28px;max-width:520px;}
+  .hero p{color:#ffdedb;font-size:1.05rem;margin-bottom:28px;max-width:520px;}
   .cta-row{display:flex;gap:14px;flex-wrap:wrap;}
   .btn{
     padding:14px 28px;border-radius:12px;font-weight:700;
@@ -77,8 +79,8 @@
     transition:transform .15s;
   }
   .btn:active{transform:scale(.97);}
-  .btn-primary{background:var(--red);color:#fff;}
-  .btn-ghost{background:transparent;color:var(--text);border:2px solid #3a3d63;}
+  .btn-primary{background:#0f1020;color:#fff;}
+  .btn-ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.45);}
 
   .blox-art{
     display:grid;grid-template-columns:1fr 1fr;
@@ -90,7 +92,7 @@
     font-size:3rem;
     box-shadow:0 10px 30px rgba(0,0,0,.4);
   }
-  .t1{background:linear-gradient(135deg,#e2231a,#ff6b5e);}
+  .t1{background:linear-gradient(135deg,#0f1020,#2b2e55);}
   .t2{background:linear-gradient(135deg,#00a2ff,#5fd0ff);}
   .t3{background:linear-gradient(135deg,#46d160,#8ef0a0);}
   .t4{background:linear-gradient(135deg,#ffb400,#ffd86b);}
